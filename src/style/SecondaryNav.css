@@ -1,0 +1,10 @@
+.SecondaryNav li {
+    display: inline;
+    color: lightgray;
+}
+.SecondaryNav {
+    margin: 0px 20px;
+}
+.SecondaryNav li+li::before {
+    content: '>';
+}

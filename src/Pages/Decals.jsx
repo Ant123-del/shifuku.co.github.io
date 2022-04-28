@@ -1,5 +1,18 @@
 import React from "react";
-
+import Header from "./Components/Header";
+import SecondaryNavigation from "./Components/Decals/SecondaryNav";
+import Form from "./Components/Decals/Form";
+import '../style/Header.css'
+import '../style/SecondaryNav.css'
 export default function Decals() {
-    return <h1>Decals</h1>
+    return (
+        <div>
+            <Header />
+            <h1>
+                DECALS
+            </h1>
+            <SecondaryNavigation />
+            <Form />
+        </div>
+    )
 }
