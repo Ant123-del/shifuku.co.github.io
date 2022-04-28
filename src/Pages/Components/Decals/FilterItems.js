@@ -43,7 +43,7 @@ const myDecals = [
 export default function Filter(props) {
     const filter = props.filter
     const newItems = myDecals.filter(item => {
-        return item.name.includes(filter)
+        return item.name.toLowerCase().includes(filter.toLowerCase())
     })
     return <RenderItems items={newItems}/>
 }
