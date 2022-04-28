@@ -4,6 +4,7 @@ import SecondaryNavigation from "./Components/Decals/SecondaryNav";
 import Form from "./Components/Decals/Form";
 import '../style/Header.css'
 import '../style/SecondaryNav.css'
+import '../style/Decal.css'
 export default function Decals() {
     return (
         <div>

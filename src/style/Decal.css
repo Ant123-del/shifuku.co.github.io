@@ -1,0 +1,48 @@
+.DecalItem {
+    width: 300px;
+    margin: 10px;
+}
+
+.DecalImg {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.DecalInfo {
+    margin: 0px;
+    width: 300px;
+    background-color: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.DecalName {
+
+}
+
+.DecalDescription {
+    display: none;
+}
+
+.decals, .filterInput {
+    display: flex;
+    width: 50%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.filterInput {
+    flex-wrap: nowrap;
+}
+.placeholderDiv {
+    text-align: center;
+    width: 300px;
+}
+
+label {
+    margin: 0px 10px;
+}
